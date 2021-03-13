@@ -5,19 +5,19 @@ const skill_type_string = [
 ['Runestone to water strengthening','Runestone to fire strengthening','Runestone to wood strengthening','Runestone to light strengthening','Runestone to dark strengthening','Runestone turning to heart strengthening'],
 ['Water to other','Fire to other','Wood to other','Light to other','Dark to other','Heart to other','Specified rune to other'],
 ['Runestones have water','Runestones have fire','Runestones have wood','Runestones have light','Runestones have dark','Runestones have heart'],
-['Water is chasing",'Fire is chasing','Wood is chasing','Light is chasing','Dark is chasing','No property is chasing','Self chasing', ' The whole team is chasing'],
+['Water is chasing','Fire is chasing','Wood is chasing','Light is chasing','Dark is chasing','No property is chasing','Self chasing', ' The whole team is chasing'],
 ['Detonate','Full page detonation','Straight detonation','Rampund detonation','X-type detonation','Multiple detonation','Water runestone detonation','Fire runestone detonation','Wooden symbol Stone detonation','light runestone detonation','dark runestone detonation','heart runestone detonation','water runestone detonation','fire runestone detonation','wood runestone detonation', ' Detonate runestones outside the light','detonate runestones outside the dark','detonate runestones outside the heart','detonate runestones outside of the heart','detonate runes outside the specified runes'],
 ['Human runestone manufacturing','Orc runestone manufacturing','Monster runestone manufacturing','Dragon runestone manufacturing','God runestone manufacturing','Devil runestone manufacturing','Mechanical runestone manufacturing Stone Manufacturing'],
 ['Runestone enhancement','Significant conversion','Fixed conversion','Restore layout','Remove runestones','Forbidden beads','Change drop probability','Forced drop', ' Change the elimination method','Add runestones'],
 ['Damage reduction','Will','Enemy attack reduction','Avoidance','Recovery','Our damage absorption','Enemy damage absorption'],
 ['Broken defense','Straight injury','Broken straight injury','Property restraint change','Rolling beads','Extend the bead turning time'],
-['Injury bonus','World King's Fist','Attack transfer','Increase back','Our attack power absorption','Resonance'],
+['Injury bonus','World Kings Fist','Attack transfer','Increase back','Our attack power absorption','Resonance'],
 ['Increase damage to humans','Increase damage to beasts','Increase damage to fairies','Increase damage to dragons','Increase damage to gods','Increase damage to demons','For machinery Family injury'],
 ['Increase Combo','Increase Ex.Combo','Delay','Decrease CD','Restore EP','Additional elimination','Longmai instrument energy storage','Action value increase','Close at any time', 'Transformation','fitting'],
 ['Unable to move','Enemy transfer to ownership','Freeze the enemy','Ignite the enemy','Petroify the enemy','Electric shock the enemy','Parasitic enemy','Enemy poisoning', ' Charm the enemy','stun the enemy'],
 ['Unlock','anti-lock','anti-virus','explosion-proof','anti-counterattack','ignore burning','ignore slimy rot','ignore storm','black and white restoration','fragmentation restoration', 'Ignore Puzzle Shield','Ignore Attack Front Shield','Ignore Three-genus Shield','Ignore Five-genus Shield','Ignore Fixed Combo Shield','Ignore Pursuit Zeroing','Ignore Combo Seal'],
 ['Weathered Runestone Treatment','Frozen Runestone Treatment','Weakened Runestone Treatment','Electric Runestone Treatment','Petrification Runestone Treatment','Blood Runestone Treatment'],
-['Our side reduces attack','Our side reduces back','Our side deducts blood','Limits member's attack','Our side's injury increases']
+['Our side reduces attack','Our side reduces back','Our side deducts blood','Limits members attack','Our sides injury increases']
 ];
 
 /* team skill filter */
@@ -32,7 +32,7 @@ const team_skill_type_string = [
 ['Rune enhancement','Fixed version'],
 ['Runestones have water','Runestones have fire','Runestones have wood','Runestones have light','Runestones have darkness','Runestones have heart',] ,
 ['Water with other','Fire with other','Wood with other','Light with other','Dark with other','Heart with other',],
-['Water is chasing",'Fire is chasing','Wood is chasing','Light is chasing','Dark is chasing','No belongs to chasing'],
+['Water is chasing','Fire is chasing','Wood is chasing','Light is chasing','Dark is chasing','No belongs to chasing'],
 ['Damage reduction','shield','will','evasion','recovery','our damage absorption','enemy damage absorption','enemy attack reduction'],
 ['Broken defense','detonate','direct injury','critical strike','overfill attack','attribute restraint change','attack resonance resonance','recovery resonance resonance'],
 ['Runestone drop rate increased','forced drop','enhanced bead effect increased','change elimination method'],
@@ -47,7 +47,7 @@ const team_skill_type_string = [
 ];
 
 const team_skill_activate_string = [
-['Designated Captain','Designated Companion','Designated Double Captain','Designated Captain's Companion','Designated Member','Designated Attribute Member','Designated Race Member','Designated Rarity Member','Level Lower Limit ','Lower limit of sublimation','Equipment dragon carving'],
+['Designated Captain','Designated Companion','Designated Double Captain','Designated Captains Companion','Designated Member','Designated Attribute Member','Designated Race Member','Designated Rarity Member','Level Lower Limit ','Lower limit of sublimation','Equipment dragon carving'],
 ];
 
 const attr_type_string = ['water','fire','wood','light','dark'];
@@ -60,7 +60,7 @@ const option_text = ['Single round','Cross round','Resident'];
 const craft_skill_type_string = [
 ['Runestone to water','Runestone to fire','Runestone to wood','Runestone to light','Runestone to dark','Runestone to heart','Runestone to strengthen'],
 ['Go straight to water','Go straight to fire','Go straight to wood','Go straight to light','Go straight to dark','Go straight to heart'],
-['Water is chasing",'Fire is chasing','Wood is chasing','Light is chasing','Dark is chasing','No one is chasing'],
+['Water is chasing','Fire is chasing','Wood is chasing','Light is chasing','Dark is chasing','No one is chasing'],
 ['Injury reduction','Will','Evasion','Recover blood','Our damage absorption'],
 ['Direct injuries','All direct injuries','Single breakage prevention direct injuries'],
 ['Injury','increase back','break defense','counterattack'],
