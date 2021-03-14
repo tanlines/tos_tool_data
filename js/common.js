@@ -130,7 +130,8 @@ function createFilterButtonRow(name, data, postAppend = '', data_en) {
                     str += 
                     `<div class='col-6 col-md-4 col-lg-2 btn-shell'>
                         <input type='checkbox' class='filter' id='${name}-${index_group}-${index}'>
-                        <label class='p-1 w-100 text-center filter-btn' for='${name}-${index_group}-${index}'>${en}${postAppend}</label>
+                        <label class='p-1 w-100 text-center filter-btn' for='${name}-${index_group}-${index}'>${skill}${postAppend}</label>
+						<label>${en}</label>
                     </div>`;
                 })
             })
