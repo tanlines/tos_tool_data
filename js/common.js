@@ -36,7 +36,7 @@ function init() {
     
     switch(tool_id) {
         case 'active_skill':
-            createFilterButtonRow("filter", skill_type_string);
+            createFilterButtonRow("filter", skill_type_string,'',skill_type_string_en);
             createKeywordRow();
             createFilterButtonRow("attr", attr_type_string);
             createFilterButtonRow("race", race_type_string);
@@ -108,7 +108,7 @@ function createSideNavigation() {
     `
 }
 
-function createFilterButtonRow(name, data, postAppend = '') {
+function createFilterButtonRow(name, data, postAppend = '', data_en) {
     $(`.${name}-row`).html(() =>
     {
         let str = $(`.${name}-row`).html();
@@ -118,7 +118,7 @@ function createFilterButtonRow(name, data, postAppend = '') {
                 str += 
                 `<div class='col-6 col-md-4 col-lg-2 btn-shell'>
                     <input type='checkbox' class='filter' id='${name}-${index}'>
-                    <label class='p-1 w-100 text-center filter-btn' for='${name}-${index}'>aaa${postAppend}</label>
+                    <label class='p-1 w-100 text-center filter-btn' for='${name}-${index}'>${skill}${postAppend}</label>
                 </div>`;
             })
         }
@@ -126,10 +126,11 @@ function createFilterButtonRow(name, data, postAppend = '') {
             $.each(data, (index_group, group) => {
                 str += "<div class='col-12 my-2'></div>";
                 $.each(group, (index, skill) => {
+					let en = data_en[index_group][index];
                     str += 
                     `<div class='col-6 col-md-4 col-lg-2 btn-shell'>
                         <input type='checkbox' class='filter' id='${name}-${index_group}-${index}'>
-                        <label class='p-1 w-100 text-center filter-btn' for='${name}-${index_group}-${index}'>${skill}${postAppend}</label>
+                        <label class='p-1 w-100 text-center filter-btn' for='${name}-${index_group}-${index}'>${en}${postAppend}</label>
                     </div>`;
                 })
             })
