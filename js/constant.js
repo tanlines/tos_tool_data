@@ -21,23 +21,23 @@ const skill_type_string = [
 ];
 
 const skill_type_string_en = [
-['Rune stone to water','Rune stone to fire','Rune stone to wood','Rune stone to light','Rune stone to dark','Rune stone to heart'],
-['Runestone to water strengthening','Runestone to fire strengthening','Runestone to wood strengthening','Runestone to light strengthening','Runestone to dark strengthening','Runestone turning to heart strengthening'],
+['water conversion','fire conversion','wood conversion','light conversion','dark conversion','heart conversion'],
+['Enchanted water conversion','Enchanted fire conversion','Enchanted wood conversion','Enchanted light conversion','Enchanted dark conversion','Runestone turning to heart strengthening'],
 ['Water to other','Fire to other','Wood to other','Light to other','Dark to other','Heart to other','Specified rune to other'],
-['Runestones have water','Runestones have fire','Runestones have wood','Runestones have light','Runestones have dark','Runestones have heart'],
-['Water is chasing','Fire is chasing','Wood is chasing','Light is chasing','Dark is chasing','No property is chasing','Self chasing', ' The whole team is chasing'],
-['Detonate','Full page detonation','Straight detonation','Rampund detonation','X-type detonation','Multiple detonation','Water runestone detonation','Fire runestone detonation','Wooden symbol Stone detonation','light runestone detonation','dark runestone detonation','heart runestone detonation','water runestone detonation','fire runestone detonation','wood runestone detonation', ' Detonate runestones outside the light','detonate runestones outside the dark','detonate runestones outside the heart','detonate runestones outside of the heart','detonate runes outside the specified runes'],
-['Human runestone manufacturing','Orc runestone manufacturing','Monster runestone manufacturing','Dragon runestone manufacturing','God runestone manufacturing','Devil runestone manufacturing','Mechanical runestone manufacturing Stone Manufacturing'],
-['Runestone enhancement','Significant conversion','Fixed conversion','Restore layout','Remove runestones','Forbidden beads','Change drop probability','Forced drop', ' Change the elimination method','Add runestones'],
-['Damage reduction','Will','Enemy attack reduction','Avoidance','Recovery','Our damage absorption','Enemy damage absorption'],
-['Broken defense','Straight injury','Broken straight injury','Property restraint change','Rolling beads','Extend the bead turning time'],
-['Injury bonus','World Kings Fist','Attack transfer','Increase back','Our attack power absorption','Resonance'],
-['Increase damage to humans','Increase damage to beasts','Increase damage to fairies','Increase damage to dragons','Increase damage to gods','Increase damage to demons','For machinery Family injury'],
-['Increase Combo','Increase Ex.Combo','Delay','Decrease CD','Restore EP','Additional elimination','Longmai instrument energy storage','Action value increase','Close at any time', 'Transformation','fitting'],
-['Unable to move','Enemy transfer to ownership','Freeze the enemy','Ignite the enemy','Petroify the enemy','Electric shock the enemy','Parasitic enemy','Enemy poisoning', ' Charm the enemy','stun the enemy'],
-['Unlock','anti-lock','anti-virus','explosion-proof','anti-counterattack','ignore burning','ignore slimy rot','ignore storm','black and white restoration','fragmentation restoration', 'Ignore Puzzle Shield','Ignore Attack Front Shield','Ignore Three-genus Shield','Ignore Five-genus Shield','Ignore Fixed Combo Shield','Ignore Pursuit Zeroing','Ignore Combo Seal'],
-['Weathered Runestone Treatment','Frozen Runestone Treatment','Weakened Runestone Treatment','Electric Runestone Treatment','Petrification Runestone Treatment','Blood Runestone Treatment'],
-['Our side reduces attack','Our side reduces back','Our side deducts blood','Limits members attack','Our sides injury increases']
+['Runes possess water effect','Runes possess fire effect','Runes possess wood effect','Runes possess light effect','Runes possess dark effect','Runes possess heart effect'],
+['Extra Water attack','Extra Fire attack','Extra Wood attack','Extra Light attack','Extra Dark attack','No Extra property attack','Self extra attack', ' The whole team extra attack'],
+['Explode runestones','Explode all runestones','Explode column','Explode row','X-type explode','Multiple explode','Explode Water runestones','Explode Fire runestones','Explode earth runestones','Explode light runestones','Explode dark runestones','Explode heart runestones','Explode water runestones','Explode fire runestones','Explode wood runestones', ' Detonate runestones outside the light','detonate runestones outside the dark','detonate runestones outside the heart','detonate runestones outside of the heart','detonate runes outside the specified runes'],
+['Human runestone manufacturing','Beast runestone manufacturing','Elf runestone manufacturing','Dragon runestone manufacturing','God runestone manufacturing','Demon runestone manufacturing','Machina runestone manufacturing Stone Manufacturing'],
+['Runestone enchantment','Full board conversion','Fixed conversion','Restore layout','Remove runestones','Drop rate transfer','Change drop probability','Forced drop', 'Change number to dissolve','Add rows of runestones'],
+['Damage reduction','Willpower','Enemy damage reduction','Dodge','Recovery','Absorb incoming damage','Convert enemy damage to health'],
+['Remove defence','Sniper','Ignore defence sniper','Change attribute relation','Time tunnel','Extend moving time'],
+['Damage boost','Specific card damage boost','Change attack attribute','Recovery boost','Absorb team attack','Synchronize attack'],
+['Increase damage to humans','Increase damage to beasts','Increase damage to elves','Increase damage to dragons','Increase damage to gods','Increase damage to demons','Increase damage to machinas'],
+['Increase Combo count','Increase Ex.Combo','Delay','Decrease CD','Restore EP','Clear effects','Charge craft apparatus','Increase fuel','Cancel at any time', 'Switching','Combination'],
+['Inactivate','Change enemy attribute','Freeze','Ignite','Petrify','Electrify','Parasitism','Poison', 'Enemy attack themselves','stun'],
+['Unlock skills','Prevent skills being locked','Prevent poison','explosion-proof','anti-counterattack','ignore burning','ignore sticky','ignore electrified','black and white restoration','Cracked restoration', 'Ignore Puzzle Shield','Ignore Initial Shield','Ignore Three-element Shield','Ignore Five-genus Shield','Ignore Fixed Combo Shield','Ignore Attributive Combo Nullifying','Ignore Combo Shield'],
+['Restore Weathered','Restore Frozen','Restore Weakened','Restore Electrified','Restore Petrified','Restore Locked for recovery'],
+['Reduce team attack','Reduce team recovery','Self damage','Restrict team attacks','Increase damage to self']
 ];
 
 /* team skill filter */

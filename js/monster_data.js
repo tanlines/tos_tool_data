@@ -64731,7 +64731,7 @@ const monster_data = [
                 'name': '念之躍動',
                 'type': 'normal',
                 'charge': 'CD',
-                'num': 12,
+                'num': 6,
                 'description': '於移動符石時間內，可任意移動符石而不會發動消除，效果持續 3 回合',
                 'tag': [['排珠', 3]]
             }
